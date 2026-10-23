@@ -1,0 +1,15 @@
+# Dataset (el notebook lo descarga desde la web oficial)
+data/*
+!data/README.md
+*.tar.gz
+annotations/
+images/*.jpg
+images/*.mat
+
+# Salidas temporales
+salidas_ep1.zip
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
